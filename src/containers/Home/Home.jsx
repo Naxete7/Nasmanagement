@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <div className="HomeDesign">
-    Home
+    Soy el Home
         </div>
     );
     
