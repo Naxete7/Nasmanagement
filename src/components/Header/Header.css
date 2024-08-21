@@ -1,15 +1,26 @@
 .navbarDesign {
-    background-image: linear-gradient(75deg, #e8867012 0%, #e8867094 100%);
+    background-image: linear-gradient(75deg, #e8867012 0%, #0b090894 100%);
     color: rgba(245, 245, 245, 0.421);
-    border-bottom: #fda085 solid 0.1em;
+    border-bottom: #f1643d solid 0.1em;
     font-family: Franklin Gothic Medium;
+    justify-items: end;
+    height: auto;
+    width: 100%;
+    
+    
 }
 
-
+.rowDesign {
+    display: flex;
+        flex-direction: row;
+       align-items: center;
+       justify-content: flex-start;
+    
+}
 .logoDesign {
-
-    height: 6em;
-    width: 7em;
+    align-items: start;
+    height: 10em;
+    width: 10em;
 }
 
 .titleDesign {
@@ -18,5 +29,9 @@
         monospace;
 
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
+}
+
+.footerText{ 
+    color:black
 }
